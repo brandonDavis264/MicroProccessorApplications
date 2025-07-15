@@ -1,0 +1,22 @@
+[package]
+name = "feather-rp2040-Anim"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+panic-halt = "0.2.0"
+cortex-m = "0.7.6"
+cortex-m-rt = "0.7.1"
+embedded-time = "0.12.1"
+embedded-hal = "0.2.7"
+adafruit-feather-rp2040 = "0.8.0"
+ws2812-pio = "0.8.0"  # Upgrade to a version compatible with newer rp2040-hal
+fugit = "0.3.5"
+smart-leds = "0.4.0"
+smart-leds-trait = "0.2.0"
+nb = "1.1.0"
+lis3dh = "0.4.2"
+usbd-serial = "0.2.2"
+usb-device = "0.3.2"
+critical-section = "1.2.0"  # Ensure consistent version
+rp2040-hal = "0.10.2"  # Ensure consistent version
